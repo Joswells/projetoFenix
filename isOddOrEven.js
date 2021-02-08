@@ -1,5 +1,5 @@
-function isOdd(number){
+function isEven(number){
   return number % 2 == 0 
 }
 
-console.log(`O número ${2} é ímpar?\n`, isOdd(2))
+console.log(`O número ${2} é par?\n`, isEven(2))
